@@ -1,0 +1,23 @@
+연습문제 Q15
+
+#include <stdio.h>
+
+int main(void)
+{
+	int high, wide, i, j;
+
+	printf("직사각형을 출력합니다.\n");
+	printf("높이 : "); scanf_s("%d", &high);
+	printf("너비 : "); scanf_s("%d", &wide);
+
+	for (i = 1; i <= high; i++)
+	{
+		for (j = 1; j <= wide; j++)
+		{
+			printf("*");
+		}
+		printf("\n");
+	}
+
+	return 0;
+}
